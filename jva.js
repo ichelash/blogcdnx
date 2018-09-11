@@ -1077,7 +1077,7 @@ var Publisher_Theme = (function ($) {
                     return false;
                 }
 
-                return $this.attr('href').match(/\.(jp?g|png|bmp|jpeg|gif)((\?.+$)|$)/);
+                //return $this.attr('href').match(/\.(jp?g|png|bmp|jpeg|gif)((\?.+$)|$)/);
             };
 
             $('.entry-content a,.single-featured a.open-lightbox').has('img').filter(filter_only_images).attr('rel', 'prettyPhoto');
